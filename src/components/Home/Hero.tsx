@@ -317,58 +317,6 @@ const Hero: React.FC = () => {
             </motion.div>
           </motion.div>
         </motion.div>
-
-        {/* Bottom CTA section */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1 }}
-          className="text-center pb-16 lg:pb-24"
-        >
-          <div className="bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-md border border-gray-700/50 rounded-3xl p-8 max-w-4xl mx-auto">
-            <h2 className="text-2xl lg:text-3xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                Be Among the First to Experience
-              </span>
-              <span className="bg-gradient-to-r from-lime-400 to-emerald-400 bg-clip-text text-transparent">
-                GoExvora
-              </span>
-            </h2>
-            <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join thousands of early adopters who are revolutionizing how they
-              handle money. Get exclusive access when we launch.
-            </p>
-
-            {/* Waitlist form */}
-            <div className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto mb-8">
-              <input
-                type="email"
-                placeholder="Enter your email address"
-                className="flex-1 px-6 py-4 bg-gray-800/50 border border-gray-600/50 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-lime-400/50 focus:border-lime-400 transition-all"
-              />
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                transition={{ duration: 0.2 }}
-                className="px-8 py-4 bg-gradient-to-r from-lime-400 to-emerald-400 text-black font-bold rounded-xl hover:shadow-lg hover:shadow-lime-400/25 transition-all duration-300"
-              >
-                Join Waitlist
-              </motion.button>
-            </div>
-
-            {/* Trust indicators */}
-            <div className="flex items-center justify-center gap-8 mt-8 text-xs text-gray-500">
-              <div className="flex items-center gap-2">
-                <ShieldCheckIcon className="w-4 h-4 text-lime-400" />
-                <span>Bank-Grade Security</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircleIcon className="w-4 h-4 text-emerald-400" />
-                <span>CBN Licensed</span>
-              </div>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

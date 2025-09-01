@@ -193,10 +193,10 @@ const Footer: React.FC = () => {
                 <div>
                   <p className="text-xs text-gray-400 mb-1">Email Support</p>
                   <a
-                    href="mailto:support@aimtoget.com"
+                    href="mailto:support@goexvora.com"
                     className="text-sm text-gray-300 hover:text-lime-400 transition-colors"
                   >
-                    support@aimtoget.com
+                    support@goexvora.com
                   </a>
                 </div>
               </div>
@@ -209,7 +209,7 @@ const Footer: React.FC = () => {
                     href="tel:+2348130690998"
                     className="text-sm text-gray-300 hover:text-lime-400 transition-colors"
                   >
-                    0813 069 0998
+                    +234 813 069 0998
                   </a>
                 </div>
               </div>
