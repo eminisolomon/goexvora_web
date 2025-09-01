@@ -56,13 +56,10 @@ const Header: React.FC = () => {
         transition={{ duration: 0.6, ease: 'easeOut' }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           isScrolled
-            ? 'bg-black/90 backdrop-blur-md border-b border-gray-800/50 shadow-2xl'
+            ? 'bg-black/90 backdrop-blur-md shadow-2xl'
             : 'bg-transparent'
         }`}
       >
-        {/* Top gradient line */}
-        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-lime-400 via-emerald-400 to-cyan-400"></div>
-
         <div className="container mx-auto px-6">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
